@@ -3,64 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-    }
-    
-    header {
-      background-color: #282c34;
-      color: white;
-      padding: 1rem 0;
-      text-align: center;
-    }
-    
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    
-    h1 {
-      margin-bottom: 1rem;
-    }
-    
-    p {
-      margin-bottom: 1rem;
-    }
-    
-    button {
-      background-color: #61dafb;
-      border: none;
-      padding: 0.5rem 1.5rem;
-      font-size: 1rem;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-    
-    button:hover {
-      background-color: #4fa8c5;
-    }
-  </style>
+  <title>Griffin Moran</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Testing</h1>
-  </header>
-  
-  <main>
-    <h2>Main Content</h2>
-    <p>This is a basic landing page for testing purposes.</p>
-    <button>Get Started</button>
-  </main>
+  <div class="page" id="home">
+    <div class="container">
+      <header>
+        <div class="nametag">
+          <p class="logo">Griffin Moran</p>
+          <p class="sublogo">Computer Science Student</p>
+        </div>
+        <nav>
+          <a class="navbtn" href="#home">Home</a>
+          <a class="navbtn" href="#projects">Projects</a>
+          <a class="navbtn" href="#about">About</a>
+          <a class="navbtn" href="#skills">Skills</a>
+          <a class="navbtn" href="#contact">Contact</a>
+        </nav>
+        <div class="other">
+          <a class="resume" href="attachments/Moran, Griffin resume.pdf">Resume</a>
+          <a class="connect" href="#contact">Let's Connect</a>
+        </div>
+      </header>
+
+      <section class="intro">
+        <div>
+          <h1>Griffin Moran</h1>
+          <h2 class="title">Computer Science Student</h2>
+          <p class="activity">Undergraduate student at James Madison University</p>
+          <div class="location-bar">
+            <p>Herndon, VA</p>
+            <p>Software Engineering</p>
+            <p>AI & Machine Learning</p>
+          </div>
+          <div class="intro-actions">
+            <a class="btn btn-primary" href="#projects">View work</a>
+            <a class="btn btn-secondary" href="#contact">Lets talk</a>
+          </div>
+        </div>
+        <div class="intro-card">
+          <h3>Currently focused on</h3>
+          <ul>
+            <li>Design-led frontend builds</li>
+            <li>API-first product experiences</li>
+            <li>Writing about developer workflows</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          <span class="chip">Projects</span>
+          <span>Notable work</span>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Project Aurora</h3>
+            <p>A polished dashboard for a climate analytics startup with real-time insights.</p>
+            <div class="tag-list">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Data Viz</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Nomad Notes</h3>
+            <p>Travel journal that blends offline-first UX with crisp editorial layouts.</p>
+            <div class="tag-list">
+              <span class="tag">PWA</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Design</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Studio Atlas</h3>
+            <p>Brand-driven marketing site with light animations and CMS integration.</p>
+            <div class="tag-list">
+              <span class="tag">UI</span>
+              <span class="tag">Content</span>
+              <span class="tag">Performance</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-title">
+          <span class="chip">About</span>
+          <span>A quick intro</span>
+        </div>
+        <div class="about">
+          <div>
+            <p>
+              I focus on turning complex ideas into clear, polished digital experiences. I care
+              about the details: typography, motion, and the little touches that make products
+              feel alive.
+            </p>
+            <p>
+              Outside of coding I am usually sketching layouts, exploring new tools, or hunting
+              for the perfect espresso.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Highlights</h3>
+            <ul class="skills">
+              <li>3+ years building web apps and design systems</li>
+              <li>Comfortable across frontend, backend, and product strategy</li>
+              <li>Based in Michigan, open to remote collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-title">
+          <span class="chip">Skills</span>
+          <span>Toolbox</span>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, accessibility, interaction design.</p>
+          </div>
+          <div class="card">
+            <h3>Backend</h3>
+            <p>Node.js, REST APIs, databases, authentication flows.</p>
+          </div>
+          <div class="card">
+            <h3>Design</h3>
+            <p>Figma, prototyping, design systems, brand direction.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact">
+          <h2>Lets build something together.</h2>
+          <p>Have a project idea or want to collaborate? Send me a note.</p>
+          <a href="mailto:hello@gcmoran.tech">hello@gcmoran.tech</a>
+        </div>
+      </section>
+
+      <footer>
+        <div class="base">
+        <p>© 2026 Griffin Moran. Crafted with care.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
