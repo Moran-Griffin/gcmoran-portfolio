@@ -63,20 +63,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 0;
-  font-size: 0.95rem;
+  padding: 20px 3vw;
+  font-size: clamp(0.8rem, 2vw, 0.95rem);
   position: sticky;
   top: 0;
   z-index: 10;
   background: #efe8de;
-  width: calc(100% + 4vw);
-  margin-left: -.2vw;
-  margin-right: -.2vw;
+  backdrop-filter: blur(10px);
+  width: calc(100% + 6vw);
+  margin-left: -3vw;
+  margin-right: -3vw;
 }
 
 .logo {
   font-family: "DM Serif Display", serif;
-  font-size: 1.35rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
   letter-spacing: 0.02em;
 }
 
@@ -93,9 +94,10 @@ nav {
 }
 
 nav a {
-  padding: 6px 10px;
+  padding: 4px 8px;
   border-radius: 999px;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: clamp(0.75rem, 1.5vw, 0.95rem);
 }
 
 nav a:hover {
@@ -310,7 +312,7 @@ section {
 
 .about {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   align-items: start;
   column-gap: 40px;
 }
@@ -327,6 +329,10 @@ section {
 .work {
   display: grid;
   gap: 12px;
+}
+
+.education .education-card {
+  margin: 12px;
 }
 
 .education-card {
@@ -364,11 +370,51 @@ section {
   margin-top: 4px;
 }
 
+.awards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.award-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(18, 18, 26, 0.08);
+}
+
+.award-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.award-item h4 {
+  font-weight: 600;
+  margin: 0;
+  color: var(--ink);
+}
+
+.award-issuer {
+  color: var(--accent-dark);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.award-date {
+  color: var(--slate);
+  font-size: 0.9rem;
+}
+
+.skills .card {
+  margin: 12px;
+}
 
 .card-skill-cat {
   display: block;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   margin-bottom: 12px;
   color: var(--ink);
 }
