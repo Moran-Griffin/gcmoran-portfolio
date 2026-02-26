@@ -243,6 +243,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   gap: 12px;
   margin-bottom: 24px;
@@ -494,7 +495,111 @@ footer {
     padding-top: 20px;
   }
 
+  .about {
+    gap: 10px;
+  }
+
   .contact {
     padding: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "logo other"
+      "nav nav";
+    align-items: start;
+    row-gap: 10px;
+  }
+
+  .logo {
+    grid-area: logo;
+    margin: 0;
+  }
+
+  .other {
+    grid-area: other;
+    display: flex;
+    gap: 8px;
+    justify-self: end;
+    align-items: center;
+  }
+
+  nav {
+    grid-area: nav;
+    width: 100%;
+  }
+
+  /* Stack About sections in this order */
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .education { order: 1; }
+  .skills { order: 2; }
+  .awards { order: 3; }
+
+  /* Education: single column */
+  .education {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .education > h3 {
+    grid-column: 1 / -1;
+  }
+
+  /* Skills: two columns */
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .skills > h3 {
+    grid-column: 1 / -1;
+  }
+
+  /* Awards: single column */
+  .awards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .awards > h3 {
+    grid-column: 1 / -1;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+  }
+
+  nav a,
+  .other a,
+  .connect {
+    font-size: 0.80rem;
+    padding: 4px 6px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .major-list,
+  .major-list li {
+    text-align: left;
+    align-self: flex-start;
+    width: 100%;
   }
 }
