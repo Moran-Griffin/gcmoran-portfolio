@@ -418,3 +418,39 @@ img { display: block; max-width: 100%; }
   color: var(--accent);
   transform: translate(3px, -3px);
 }
+
+/* ── Contact section ─────────────────────────────────────────────────── */
+.section--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-body { max-width: 480px; }
+.contact-tagline {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.contact-email {
+  display: inline-block;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 1.75rem;
+  transition: opacity 0.2s;
+}
+.contact-email:hover { opacity: 0.7; }
+.contact-socials { display: flex; gap: 1.25rem; align-items: center; }
+.contact-socials .social-link { color: var(--muted); }
+.contact-socials .social-link:hover { color: var(--accent); }
+
+/* Footer */
+.site-footer {
+  margin-top: auto;
+  padding-top: 4rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
