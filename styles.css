@@ -344,3 +344,37 @@ img { display: block; max-width: 100%; }
   margin-bottom: 0.5rem;
 }
 .skills-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+/* ── Experience section ──────────────────────────────────────────────── */
+.work-list { display: flex; flex-direction: column; gap: 1.75rem; }
+.work-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--border);
+  border-radius: 6px;
+  padding: 1.75rem;
+  transition: border-left-color 0.2s;
+}
+.work-card:hover { border-left-color: var(--accent); }
+.work-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.875rem;
+}
+.work-role { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 0.2rem; }
+.work-company { font-size: 0.78rem; font-weight: 600; color: var(--accent); }
+.work-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 0.2rem; flex-shrink: 0; }
+.work-date, .work-loc { font-size: 0.72rem; color: var(--muted); }
+.work-desc { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; line-height: 1.6; }
+.work-achievements {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.work-achievements li { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+.work-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
