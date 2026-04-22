@@ -460,7 +460,7 @@ img { display: block; max-width: 100%; }
   .sidebar { display: none; }
   .mobile-header { display: flex; }
   .mobile-nav { display: flex; visibility: hidden; }
-  .mobile-nav.open { visibility: visible; }
+  .mobile-nav.open { display: flex; visibility: visible; }
   .main { margin-left: 0; padding-top: 56px; }
 
   .section { padding: 3rem 1.5rem; scroll-margin-top: 56px; }
