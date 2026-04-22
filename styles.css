@@ -454,3 +454,30 @@ img { display: block; max-width: 100%; }
   font-size: 0.72rem;
   color: var(--muted);
 }
+
+/* ── Responsive (≤ 768px) ────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+  .mobile-header { display: flex; }
+  .mobile-nav { display: flex; visibility: hidden; }
+  .mobile-nav.open { visibility: visible; }
+  .main { margin-left: 0; padding-top: 56px; }
+
+  .section { padding: 3rem 1.5rem; scroll-margin-top: 56px; }
+
+  .home-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .hero-sub { max-width: 100%; }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .work-card-header { flex-direction: column; gap: 0.4rem; }
+  .work-meta { align-items: flex-start; }
+
+  .section-heading { margin-bottom: 2rem; }
+}
