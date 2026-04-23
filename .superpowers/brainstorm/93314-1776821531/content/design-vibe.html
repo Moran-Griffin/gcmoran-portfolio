@@ -1,0 +1,78 @@
+<h2>What vibe should your portfolio have?</h2>
+<p class="subtitle">This will guide everything — colors, typography, layout, and animations</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #0a0a0f; padding: 20px; font-family: 'Courier New', monospace; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <div style="width: 8px; height: 8px; border-radius: 50%; background: #00ff88;"></div>
+        <span style="color: #00ff88; font-size: 11px; letter-spacing: 2px;">GRIFFIN MORAN</span>
+      </div>
+      <div>
+        <div style="color: #fff; font-size: 22px; font-weight: 700; font-family: sans-serif; letter-spacing: -1px;">Software Engineer</div>
+        <div style="color: #00ff88; font-size: 12px; margin-top: 6px; letter-spacing: 1px;">[ Machine Learning · Systems · Web ]</div>
+      </div>
+      <div style="display: flex; gap: 8px; margin-top: 8px;">
+        <div style="background: #00ff8820; border: 1px solid #00ff8840; color: #00ff88; padding: 4px 10px; border-radius: 3px; font-size: 10px;">Python</div>
+        <div style="background: #00ff8820; border: 1px solid #00ff8840; color: #00ff88; padding: 4px 10px; border-radius: 3px; font-size: 10px;">Rust</div>
+        <div style="background: #00ff8820; border: 1px solid #00ff8840; color: #00ff88; padding: 4px 10px; border-radius: 3px; font-size: 10px;">Java</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Dark / Tech</h3>
+      <p>Dark background, neon accent, terminal-inspired. Signals deep technical credibility. Great if ML/systems work is the focus.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="color: rgba(255,255,255,0.7); font-size: 11px; letter-spacing: 3px; text-transform: uppercase;">Griffin Moran</div>
+      <div>
+        <div style="color: #fff; font-size: 26px; font-weight: 800; letter-spacing: -1.5px; line-height: 1.1;">Software<br>Engineer</div>
+      </div>
+      <div style="display: flex; gap: 8px;">
+        <div style="background: rgba(255,255,255,0.2); backdrop-filter: blur(4px); color: #fff; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600;">View Work →</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Bold / Gradient</h3>
+      <p>Rich color gradients, strong typography, modern energy. High visual impact, stands out in a crowd. Creative and confident.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #fafaf8; padding: 20px; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between; border-bottom: 1px solid #e8e4de;">
+      <div style="font-size: 11px; letter-spacing: 2px; color: #999; text-transform: uppercase;">Griffin Moran</div>
+      <div>
+        <div style="color: #111; font-size: 24px; font-weight: 700; letter-spacing: -1px; line-height: 1.2;">Software Engineer<br><span style="color: #e85d3f; font-style: italic;">& Builder</span></div>
+      </div>
+      <div style="display: flex; gap: 10px;">
+        <div style="border-bottom: 2px solid #e85d3f; color: #111; padding: 4px 0; font-size: 11px; font-weight: 700; letter-spacing: 1px;">PROJECTS</div>
+        <div style="color: #aaa; padding: 4px 0; font-size: 11px; font-weight: 700; letter-spacing: 1px;">ABOUT</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Clean / Editorial</h3>
+      <p>Off-white, editorial typography, warm accent color. Feels polished and intentional. Works well if you want a refined, professional look.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="d" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #f0ebe3; padding: 20px; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden;">
+      <div style="position: absolute; top: -20px; right: -20px; width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #ff6b6b, #feca57); opacity: 0.4;"></div>
+      <div style="font-size: 11px; letter-spacing: 2px; color: #888; text-transform: uppercase; position: relative;">Griffin Moran</div>
+      <div style="position: relative;">
+        <div style="color: #1a1a2e; font-size: 24px; font-weight: 900; letter-spacing: -1px;">Hey, I build<br>cool things.</div>
+      </div>
+      <div style="display: flex; gap: 8px; position: relative;">
+        <div style="background: #1a1a2e; color: #f0ebe3; padding: 6px 14px; border-radius: 999px; font-size: 11px; font-weight: 700;">See my work</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>D — Playful / Warm</h3>
+      <p>Warm neutrals, geometric shapes, casual tone. Approachable and personable. Good if you want to show personality alongside technical skill.</p>
+    </div>
+  </div>
+
+</div>

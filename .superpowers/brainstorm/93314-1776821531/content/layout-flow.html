@@ -1,0 +1,103 @@
+<h2>How should the site flow?</h2>
+<p class="subtitle">Dark/tech aesthetic confirmed — now let's nail down the structural layout</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #0a0a0f; padding: 16px; min-height: 180px; font-family: sans-serif;">
+      <!-- Full-screen hero -->
+      <div style="background: #111; border: 1px solid #00ff8830; border-radius: 4px; padding: 10px 14px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #00ff88; font-size: 10px; letter-spacing: 1px;">GM</span>
+        <div style="display: flex; gap: 10px;">
+          <span style="color: #555; font-size: 9px;">About</span>
+          <span style="color: #555; font-size: 9px;">Experience</span>
+          <span style="color: #555; font-size: 9px;">Projects</span>
+          <span style="color: #00ff88; font-size: 9px;">Contact</span>
+        </div>
+      </div>
+      <div style="border: 1px solid #00ff8815; border-radius: 4px; padding: 14px; height: 60px; display: flex; flex-direction: column; justify-content: center; margin-bottom: 6px;">
+        <div style="color: #fff; font-size: 14px; font-weight: 700;">Griffin Moran</div>
+        <div style="color: #00ff88; font-size: 9px; margin-top: 3px;">Software Engineer · ML · Systems</div>
+      </div>
+      <div style="display: flex; gap: 4px;">
+        <div style="flex: 1; border: 1px solid #1e1e2e; border-radius: 3px; height: 28px; background: #0d0d18;"></div>
+        <div style="flex: 1; border: 1px solid #1e1e2e; border-radius: 3px; height: 28px; background: #0d0d18;"></div>
+        <div style="flex: 1; border: 1px solid #1e1e2e; border-radius: 3px; height: 28px; background: #0d0d18;"></div>
+      </div>
+      <div style="color: #333; font-size: 8px; text-align: center; margin-top: 4px;">↓ scroll through sections</div>
+    </div>
+    <div class="card-body">
+      <h3>A — Classic Scroll</h3>
+      <p>Standard top nav + vertical sections. Clean, familiar, easy to navigate. Works great on mobile. Best for recruiters who skim fast.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #0a0a0f; padding: 16px; min-height: 180px; font-family: sans-serif; display: flex; gap: 8px;">
+      <!-- Sidebar -->
+      <div style="width: 60px; background: #0d0d18; border: 1px solid #1e1e2e; border-radius: 4px; padding: 10px 6px; display: flex; flex-direction: column; align-items: center; gap: 16px; flex-shrink: 0;">
+        <div style="color: #00ff88; font-size: 9px; font-weight: 700;">GM</div>
+        <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+          <div style="width: 24px; height: 2px; background: #00ff88; border-radius: 1px;"></div>
+          <div style="width: 24px; height: 2px; background: #222; border-radius: 1px;"></div>
+          <div style="width: 24px; height: 2px; background: #222; border-radius: 1px;"></div>
+          <div style="width: 24px; height: 2px; background: #222; border-radius: 1px;"></div>
+          <div style="width: 24px; height: 2px; background: #222; border-radius: 1px;"></div>
+        </div>
+        <div style="margin-top: auto; display: flex; flex-direction: column; gap: 6px; align-items: center;">
+          <div style="width: 16px; height: 16px; border-radius: 50%; background: #1e1e2e;"></div>
+          <div style="width: 16px; height: 16px; border-radius: 50%; background: #1e1e2e;"></div>
+        </div>
+      </div>
+      <!-- Main content -->
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 4px;">
+        <div style="background: #0d0d18; border: 1px solid #1e1e2e; border-radius: 4px; padding: 10px; flex: 2;">
+          <div style="color: #fff; font-size: 13px; font-weight: 700;">Griffin Moran</div>
+          <div style="color: #00ff88; font-size: 9px; margin-top: 2px;">Software Engineer</div>
+          <div style="color: #333; font-size: 8px; margin-top: 8px;">Currently at Virginia Tech · ML Research</div>
+        </div>
+        <div style="background: #0d0d18; border: 1px solid #1e1e2e; border-radius: 4px; padding: 8px; flex: 1;">
+          <div style="color: #555; font-size: 8px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Skills</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 3px;">
+            <div style="background: #00ff8810; border: 1px solid #00ff8830; color: #00ff88; padding: 2px 6px; border-radius: 2px; font-size: 7px;">Python</div>
+            <div style="background: #00ff8810; border: 1px solid #00ff8830; color: #00ff88; padding: 2px 6px; border-radius: 2px; font-size: 7px;">Java</div>
+            <div style="background: #00ff8810; border: 1px solid #00ff8830; color: #00ff88; padding: 2px 6px; border-radius: 2px; font-size: 7px;">Rust</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Fixed Sidebar Nav</h3>
+      <p>Left sidebar stays visible while content scrolls. Navigation always accessible. Feels like a developer tool/IDE. Very technical aesthetic.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #0a0a0f; padding: 16px; min-height: 180px; font-family: sans-serif;">
+      <!-- Full screen sections indicator -->
+      <div style="display: flex; gap: 4px; margin-bottom: 8px;">
+        <div style="flex: 1; background: #0d0d18; border: 1px solid #00ff8840; border-radius: 3px; height: 10px;"></div>
+        <div style="flex: 1; background: #0d0d18; border: 1px solid #1e1e2e; border-radius: 3px; height: 10px;"></div>
+        <div style="flex: 1; background: #0d0d18; border: 1px solid #1e1e2e; border-radius: 3px; height: 10px;"></div>
+        <div style="flex: 1; background: #0d0d18; border: 1px solid #1e1e2e; border-radius: 3px; height: 10px;"></div>
+      </div>
+      <div style="border: 1px solid #00ff8840; border-radius: 4px; padding: 16px; text-align: center; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative;">
+        <div style="color: #00ff88; font-size: 9px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 6px;">01 / INTRO</div>
+        <div style="color: #fff; font-size: 16px; font-weight: 800; letter-spacing: -0.5px;">Griffin Moran</div>
+        <div style="color: #555; font-size: 9px; margin-top: 4px;">Software Engineer</div>
+        <div style="position: absolute; bottom: 6px; right: 10px; color: #333; font-size: 8px;">scroll →</div>
+      </div>
+      <div style="text-align: center; margin-top: 8px; display: flex; justify-content: center; gap: 4px;">
+        <div style="width: 16px; height: 3px; background: #00ff88; border-radius: 2px;"></div>
+        <div style="width: 6px; height: 3px; background: #222; border-radius: 2px;"></div>
+        <div style="width: 6px; height: 3px; background: #222; border-radius: 2px;"></div>
+        <div style="width: 6px; height: 3px; background: #222; border-radius: 2px;"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Full-Screen Sections</h3>
+      <p>Each section snaps to fill the viewport. Immersive and dramatic. Strong visual storytelling. Best on desktop; can feel awkward on mobile.</p>
+    </div>
+  </div>
+
+</div>

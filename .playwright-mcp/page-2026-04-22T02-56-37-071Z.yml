@@ -1,0 +1,262 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - generic [ref=e3]:
+      - link "GM" [ref=e4] [cursor=pointer]:
+        - /url: "#home"
+        - img "GM" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: "#home"
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Experience" [ref=e9] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Projects" [ref=e10] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=e12]:
+      - link "GitHub" [ref=e13] [cursor=pointer]:
+        - /url: https://github.com/Moran-Griffin
+        - img [ref=e14]
+      - link "LinkedIn" [ref=e16] [cursor=pointer]:
+        - /url: https://linkedin.com/in/[YOUR-LINKEDIN-SLUG]
+        - img [ref=e17]
+      - link "Resume" [ref=e19] [cursor=pointer]:
+        - /url: attachments/Moran, Griffin resume.pdf
+        - text: CV
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - paragraph [ref=e24]: Griffin Moran
+        - heading "Software Engineer" [level=1] [ref=e25]:
+          - text: Software
+          - text: Engineer
+        - paragraph [ref=e26]: CS student at JMU → ME at Virginia Tech. Building at the intersection of ML and systems.
+        - generic [ref=e27]:
+          - generic [ref=e28]: Herndon, VA
+          - generic [ref=e29]: Software Engineering
+          - generic [ref=e30]: AI & Machine Learning
+        - generic [ref=e31]:
+          - link "View Projects" [ref=e32] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Resume" [ref=e33] [cursor=pointer]:
+            - /url: attachments/Moran, Griffin resume.pdf
+      - generic [ref=e34]:
+        - generic [ref=e37]: Current Activity
+        - list [ref=e38]:
+          - listitem [ref=e39]: → Completing BS Computer Science at JMU (May 2025)
+          - listitem [ref=e40]: → Incoming Intern — [Company Name] (Summer 2025)
+          - listitem [ref=e41]: → Preparing for ME program at Virginia Tech (Aug 2026)
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: "01"
+        - heading "About" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "Education" [level=3] [ref=e49]
+          - generic [ref=e50]:
+            - heading "Master of Engineering — Computer Science and Applications" [level=4] [ref=e51]
+            - generic [ref=e52]: Concentration in Data Analytics & Artificial Intelligence
+            - generic [ref=e53]: Virginia Tech
+            - generic [ref=e54]: Alexandria, VA · 08/2026 – 12/2027
+          - generic [ref=e55]:
+            - heading "Bachelor of Science — Computer Science" [level=4] [ref=e56]
+            - generic [ref=e57]: James Madison University
+            - generic [ref=e58]: Harrisonburg, VA · 08/2022 – 05/2025
+          - heading "Awards & Recognition" [level=3] [ref=e59]
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - heading "President's List" [level=4] [ref=e62]
+              - generic [ref=e63]: James Madison University · Fall 2024
+            - generic [ref=e64]:
+              - heading "Dean's List" [level=4] [ref=e65]
+              - generic [ref=e66]: James Madison University · Spring 2023, 2024, 2025 · Fall 2023, 2025
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: Skills
+          - generic [ref=e69]:
+            - generic [ref=e70]: Programming Languages
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - text: Java
+                - generic [ref=e73]: 5y
+              - generic [ref=e74]:
+                - text: Python
+                - generic [ref=e75]: 4y
+              - generic [ref=e76]:
+                - text: C
+                - generic [ref=e77]: 3y
+              - generic [ref=e78]:
+                - text: JavaScript
+                - generic [ref=e79]: 3y
+              - generic [ref=e80]:
+                - text: R
+                - generic [ref=e81]: 2y
+              - generic [ref=e82]:
+                - text: Ruby
+                - generic [ref=e83]: 1y
+              - generic [ref=e84]:
+                - text: Haskell
+                - generic [ref=e85]: 1y
+              - generic [ref=e86]:
+                - text: Rust
+                - generic [ref=e87]: 1y
+          - generic [ref=e88]:
+            - generic [ref=e89]: Frontend
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - text: HTML
+                - generic [ref=e92]: 3y
+              - generic [ref=e93]:
+                - text: CSS
+                - generic [ref=e94]: 3y
+              - generic [ref=e95]:
+                - text: Django
+                - generic [ref=e96]: 1y
+          - generic [ref=e97]:
+            - generic [ref=e98]: Machine Learning
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - text: NLP
+                - generic [ref=e101]: 2y
+              - generic [ref=e102]:
+                - text: Scikit-Learn
+                - generic [ref=e103]: 2y
+              - generic [ref=e104]:
+                - text: TensorFlow
+                - generic [ref=e105]: 2y
+              - generic [ref=e106]:
+                - text: Neural Networks
+                - generic [ref=e107]: 2y
+          - generic [ref=e108]:
+            - generic [ref=e109]: Statistics & Analytics
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - text: Excel
+                - generic [ref=e112]: 3y
+              - generic [ref=e113]:
+                - text: SPSS
+                - generic [ref=e114]: 3y
+              - generic [ref=e115]:
+                - text: NumPy
+                - generic [ref=e116]: 2y
+              - generic [ref=e117]:
+                - text: Matplotlib
+                - generic [ref=e118]: 2y
+              - generic [ref=e119]:
+                - text: Pandas
+                - generic [ref=e120]: 2y
+          - generic [ref=e121]:
+            - generic [ref=e122]: Other
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - text: Git
+                - generic [ref=e125]: 3y
+              - generic [ref=e126]:
+                - text: Linux
+                - generic [ref=e127]: 2y
+              - generic [ref=e128]:
+                - text: Agile
+                - generic [ref=e129]: 1y
+              - generic [ref=e130]:
+                - text: Scrum
+                - generic [ref=e131]: 1y
+              - generic [ref=e132]:
+                - text: ROS2
+                - generic [ref=e133]: 1y
+              - generic [ref=e134]:
+                - text: EC2
+                - generic [ref=e135]: 1y
+              - generic [ref=e136]:
+                - text: Azure
+                - generic [ref=e137]: 1y
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]: "02"
+        - heading "Experience" [level=2] [ref=e142]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "Digital Marketing Intern" [level=3] [ref=e147]
+              - text: DMI (Digital Management, LLC)
+            - generic [ref=e148]:
+              - generic [ref=e149]: 06/2025 – 08/2025
+              - generic [ref=e150]: Tysons Corner, VA
+          - paragraph [ref=e151]: Contributed to the automation of numerous monotonous tasks. Conducted in-depth marketing research regarding LLM and SEO representation.
+          - list [ref=e152]:
+            - listitem [ref=e153]: Conducted pivotal research regarding current MMS (Managed Mobility Services) representation within various LLMs to identify valuable insights for improving SEO and model recognition. Delivered multiple presentations to the Marketing VP, President of MMS, and the CEO.
+            - listitem [ref=e154]: Constructed an integration between HubSpot and SmartLead CRMs using webhooks to streamline tracking of campaign engagements, enabling creation and update of over 2,000 contact properties each month.
+          - generic [ref=e155]:
+            - generic [ref=e156]: 6sense API
+            - generic [ref=e157]: LLMs
+            - generic [ref=e158]: Make.com
+            - generic [ref=e159]: Power Automate
+            - generic [ref=e160]: Webhooks
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - heading "[Role Title]" [level=3] [ref=e164]
+              - text: "[Company Name]"
+            - generic [ref=e165]:
+              - generic [ref=e166]: "[Start] – [End]"
+              - generic [ref=e167]: "[Location]"
+          - paragraph [ref=e168]: "[Brief overview of your role and what the team/company does.]"
+          - list [ref=e169]:
+            - listitem [ref=e170]: "[Key achievement or responsibility #1]"
+            - listitem [ref=e171]: "[Key achievement or responsibility #2]"
+          - generic [ref=e172]:
+            - generic [ref=e173]: "[Tech 1]"
+            - generic [ref=e174]: "[Tech 2]"
+            - generic [ref=e175]: "[Tech 3]"
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e179]: "03"
+        - heading "Projects" [level=2] [ref=e180]
+      - generic [ref=e181]:
+        - link "[Project Name] [Short description of the project, the problem it solves, and the approach taken.] [Tech 1] [Tech 2] [Tech 3]" [ref=e182] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e183]:
+            - heading "[Project Name]" [level=3] [ref=e184]
+            - paragraph [ref=e185]: "[Short description of the project, the problem it solves, and the approach taken.]"
+            - generic [ref=e186]:
+              - generic [ref=e187]: "[Tech 1]"
+              - generic [ref=e188]: "[Tech 2]"
+              - generic [ref=e189]: "[Tech 3]"
+          - generic [ref=e190]: ↗
+        - link "[Project Name] [Short description of the project, the problem it solves, and the approach taken.] [Tech 1] [Tech 2]" [ref=e191] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e192]:
+            - heading "[Project Name]" [level=3] [ref=e193]
+            - paragraph [ref=e194]: "[Short description of the project, the problem it solves, and the approach taken.]"
+            - generic [ref=e195]:
+              - generic [ref=e196]: "[Tech 1]"
+              - generic [ref=e197]: "[Tech 2]"
+          - generic [ref=e198]: ↗
+        - link "[Project Name] [Short description of the project, the problem it solves, and the approach taken.] [Tech 1] [Tech 2] [Tech 3]" [ref=e199] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e200]:
+            - heading "[Project Name]" [level=3] [ref=e201]
+            - paragraph [ref=e202]: "[Short description of the project, the problem it solves, and the approach taken.]"
+            - generic [ref=e203]:
+              - generic [ref=e204]: "[Tech 1]"
+              - generic [ref=e205]: "[Tech 2]"
+              - generic [ref=e206]: "[Tech 3]"
+          - generic [ref=e207]: ↗
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]: "04"
+        - heading "Contact" [level=2] [ref=e212]
+      - generic [ref=e213]:
+        - paragraph [ref=e214]: Get in touch
+        - link "> griffm161@gmail.com" [ref=e215] [cursor=pointer]:
+          - /url: mailto:griffm161@gmail.com
+        - generic [ref=e216]:
+          - link "GitHub" [ref=e217] [cursor=pointer]:
+            - /url: https://github.com/Moran-Griffin
+            - img [ref=e218]
+          - link "LinkedIn" [ref=e220] [cursor=pointer]:
+            - /url: https://linkedin.com/in/[YOUR-LINKEDIN-SLUG]
+            - img [ref=e221]
+      - contentinfo [ref=e223]:
+        - paragraph [ref=e224]: © 2026 Griffin Moran
