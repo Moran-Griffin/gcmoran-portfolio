@@ -418,6 +418,13 @@ img { display: block; max-width: 100%; }
   color: var(--accent);
   transform: translate(3px, -3px);
 }
+.project-row:not([href]) { cursor: default; }
+.project-lock {
+  color: var(--muted);
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  opacity: 0.6;
+}
 
 /* ── Contact section ─────────────────────────────────────────────────── */
 .section--contact {
